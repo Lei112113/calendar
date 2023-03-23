@@ -1,0 +1,209 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.main1{
+    background: url(./img/spring.jpg) repeat;
+}
+.main2{
+    background: url(./img/summer.jpg) repeat;
+}
+.main3{
+    background: url(./img/argyle-ge5306f8b9_1920.jpg) repeat;
+}
+.main4{
+    background: url(./img/winter.jpg) repeat;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 768px;
+    justify-content: center;
+    background-color:rgb(248, 246, 231,1);
+    margin: auto;
+    padding: 0;
+    margin-top: 60px;
+    border-radius: 20%;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 768px;
+    justify-content: center;
+    background-color:rgb(248, 246, 231,1);
+    margin: auto;
+    padding: 0;
+    margin-top: 60px;
+    border-radius: 20%;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 768px;
+    justify-content: center;
+    background-color:rgb(248, 246, 231,1);
+    margin: auto;
+    padding: 0;
+    margin-top: 60px;
+    border-radius: 20%;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: 768px;
+    justify-content: center;
+    background-color: rgb(248, 246, 231,1);
+    margin: auto;
+    padding: 0;
+    margin-top: 60px;
+    border-radius: 20%;
+}
+
+.contain{
+    width: 1024px;
+    margin-left: 80px;
+    margin-top: -121px;
+    padding: 0;
+
+}
+
+header{
+    font-size: 64px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    width: 1024px;
+    padding: 0;
+}
+
+.top>a {
+    font-size: 54px;
+    text-decoration: none;
+    width: 80px;
+    height: 82px;
+    /* background: url(../img/next2.png) no-repeat; */
+    /* background-size: contain; */
+    margin-top: 40px;
+    /* padding:20px; */
+    padding: 0;
+
+
+}
+
+.top>.bottom2 {
+    width: 80px;
+    height: 82px;
+
+    background: url(./img/next2.png) no-repeat;
+    background-size: contain;
+}
+
+.top>.bottom1 {
+    width: 80px;
+    height: 82px;
+
+    background: url(./img/pre2.png) no-repeat;
+    background-size: contain;
+}
+
+
+.top>.bottom2:hover {
+    width: 100px;
+    background: url(./img/bunny-g4eb5980fb_1280.png) no-repeat;
+    background-size: contain;
+}
+
+.top>.bottom1:hover {
+    width: 100px;
+    background: url(./img/prehover.png) no-repeat;
+    background-size: contain;
+}
+
+table {
+    width: 90%;
+    height: 443px;
+    text-align: center;
+    margin-bottom: -150px;
+    margin-top: -100px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 周休二日 */
+td:nth-child(6)>a,
+td:nth-child(7)>a,
+th:nth-child(6),
+th:nth-child(7) {
+    color: red;
+
+}
+
+/* 滑過的日子 */
+td:hover {
+
+    background-color: pink ;
+
+}
+
+/* 今天的日期 */
+.today>a {
+    color: red;
+}
+
+
+
+.rabbithead {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: -58px;
+    float: inline-end;
+    margin-top: -5px;
+   
+}
+
+.rabbithead>img {
+    display: block;
+    height: 100px;
+    margin-bottom: -420px;
+}
+
+.rabbithead>img:hover {
+    /* display: none; */
+    transition-duration: 1s ;
+    opacity: 0;
+    height: 100px;
+}
+
+span {
+    display: block;
+    padding-right: 6px;
+    margin-bottom: -85px;
+}
+
+.index{
+    margin: 0;
+    position: relative;
+    top: 420px;
+    right: 626px;
+    
+}

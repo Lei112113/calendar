@@ -1,0 +1,205 @@
+* :not(.special) {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    /* overflow: hidden; */
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body {
+   
+
+    background: url(./img/index/star2.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 768px;
+    overflow: hidden;
+   
+}
+
+.big {
+    display: flex;
+    border-radius: 10%;
+}
+
+/* .box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-right: -70px;
+    width: 400px;
+    height: 740px;
+    border: 1px solid black;
+    position: relative;
+    left: 350px;
+    z-index: -1;
+    border-radius: 20% 0% 0% 20%;
+    box-shadow: 3px 0px 2px 0px rgb(11, 9, 56) inset;
+    background-color: rgba(188, 196, 202, 0.787);
+
+    padding: 70px 10px 60px 40px;
+} */
+
+#poker1 {
+    background: url(./img/index/leave.jpg) no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 40px;
+    margin-left: 40px;
+}
+
+#poker2 {
+    background: url(./img/index/flower.jpg) no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 40px;
+    animation-timing-function: ease;
+
+}
+
+#poker3 {
+    background: url(./img/index/flower.jpg) no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 40px;
+    animation-timing-function: linear;
+    margin-left: -70px;
+}
+
+
+#poker4 {
+    background: url(./img/index/leave.jpg) no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: 40px;
+    animation-timing-function: ease-out;
+    margin-left: -70px;
+}
+
+.poker {
+
+    /* background-color: #ccc; */
+
+    z-index: -1;
+    position: relative;
+    /* animation-name: poker;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+    animation: poker 10s linear 0s infinite;
+
+}
+
+@keyframes poker {
+    0% {
+        top: 0%;
+        left: 0px;
+        transform: rotate(20deg);
+        opacity: 100%;
+
+    }
+
+    50% {
+        top: 40%;
+        left: 5px;
+        transform: rotate(280eg);
+        opacity: 100%;
+
+
+    }
+
+    100% {
+        top: 100%;
+        left: 10px;
+        transform: rotate(700deg);
+        opacity: 0%;
+
+    }
+}
+
+/* .poker{
+    background: url(./img/index/playing-card-g1dc363e51_1280.png) no-repeat;
+    position: absolute;
+    background-size: 40px ;
+    
+    height: 100px;
+    width: 100px;
+
+} */
+
+.top {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 40px 0; */
+
+
+}
+
+.timer {
+    font-size: 48px;
+}
+
+.container {
+    margin: auto ;
+    /* margin-top: 33px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+    height: 780px;
+   
+    justify-content: center;
+    position: relative;
+    z-index: 9999999;
+    border-radius: 10%;
+    background-color: rgba(243, 243, 245, 0.842);
+}
+
+.container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.echodate {
+    width: calc(100% /7);
+    height: 40px;
+
+}
+
+.notthismonth {
+    opacity: 40%;
+}
+
+
+.echodate:nth-child(7n+1),
+.echodate:nth-child(7n) {
+    color: red;
+}
+
+
+.today {
+    background: url(./img/ball.png) no-repeat;
+
+    background-size: 10px 10px;
+    background-position: 30% 0px;
+}
+
+footer {
+    margin-top: 40px;
+
+}
+
+footer>a {
+    font-size: 20px;
+}
+
+.special {
+    font-size: 10px;
+}

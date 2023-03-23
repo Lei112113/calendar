@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    text-align: center;
+    /* font-size: 48px; */
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024px;
+    margin: auto;
+    justify-content: center;
+
+}
+
+.top{
+    width: 80%;
+    display: flex;
+    /* margin: auto; */
+    justify-content: space-around;
+    margin: 40px 0;
+  
+}
+
+.header{
+    font-size: 48px;
+}
+
+td:nth-child(1),td:nth-child(7){
+    color: red;
+}
+
+.table{
+    /* margin: auto; */
+    width: 80%;
+    height:600px;
+    position: relative;
+    left: 56px;
+}
+
+.today{
+background: url(./img/ball.png) no-repeat;
+background-size: contain;
+background-position: 30% 0px;
+}
+
+.othermonth{
+    opacity: 50%;
+}
+
+.comeback{
+    display: block;
+    width: 10%;
+    height: 40px;
+    position: relative;
+    top: 528px;
+    left: 22px;
+}
+
